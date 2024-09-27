@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Roboto", system-ui;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     background-color: #f4f4f4;
 }
@@ -50,6 +50,7 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
 .hero-content {
     max-width: 50%;
 }
@@ -137,19 +138,6 @@ body {
     font-size: 14px;
     color: #333;
     margin-top: 10px;
-}
-
-/*for smaller screens */
-@media (max-width: 768px) {
-    .gallery-item {
-        flex-basis: 48%;
-    }
-}
-
-@media (max-width: 480px) {
-    .gallery-item {
-        flex-basis: 100%; 
-    }
 }
 
 .quote-container {
